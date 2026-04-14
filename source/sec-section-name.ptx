@@ -5,7 +5,8 @@
 
   <p> Text of section. </p>
 
-
+<figure xml:id="Test-Figure-01">
+  <caption>A simple figure made in PreFigure.</caption>
 <image width="60%">
   <prefigure xmlns="https://prefigure.org"
              label="prefigure-rectangle">
@@ -22,5 +23,12 @@
       </coordinates>
     </diagram>  
   </prefigure>
+  <description>
+    <p>
+      A simple picture made with PreFigure. This should describe the visual content of the image.
+    </p>
+  </description>
 </image>
+</figure>
+
 </section>
